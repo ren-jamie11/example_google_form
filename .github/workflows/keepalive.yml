@@ -36,7 +36,7 @@ jobs:
                   page = await browser.new_page()
                   
                   # Replace with YOUR Streamlit app URL
-                  await page.goto('https://your-app.streamlit.app/', timeout=60000)
+                  await page.goto('https://exampleappform-2xazztyphkmfu4aefffmpb.streamlit.app/', timeout=60000)
                   await page.wait_for_timeout(8000)
                   
                   # Check if app is sleeping and click wake button
